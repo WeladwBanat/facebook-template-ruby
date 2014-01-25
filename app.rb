@@ -43,7 +43,7 @@ helpers do
   end
 
   def authenticator
-    @authenticator ||= Koala::Facebook::OAuth.new(ENV["FACEBOOK_APP_ID"], ENV["FACEBOOK_SECRET"], url("/auth/facebook/callback"))
+    @authenticator ||= Koala::Facebook::OAuth.new(ENV["605440376190006"], ENV["5139e0d9402a7f6ef9785710a5b8b38a"], url("/auth/facebook/callback"))
   end
 
   # allow for javascript authentication
